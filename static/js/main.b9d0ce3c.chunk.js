@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var c=n(1),r=n.n(c),i=n(3),o=n.n(i),s=(n(8),n(0));var a=function(){return Object(s.jsx)("div",{className:"bg-gray-500 flex justify-center h-screen",children:Object(s.jsx)("p",{children:"Hi im Akhila"})})};o.a.render(Object(s.jsx)(r.a.StrictMode,{children:Object(s.jsx)(a,{})}),document.getElementById("root"))},8:function(e,t,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.b9d0ce3c.chunk.js.map

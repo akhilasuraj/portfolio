@@ -1,29 +1,28 @@
 import { useState } from "react";
 
-const Portfolio = ({ curentPage, setCurentPage }) => {
+const Contact = ({ curentPage, setCurentPage }) => {
   const handleScroll = (e) => {
     if (e.nativeEvent.wheelDelta > 0) {
       console.log("scroll up");
-      setCurentPage(0);
+      setCurentPage(3);
     } else {
       console.log("scroll down");
-      setCurentPage(2);
     }
   };
 
   return (
     <div
       id="red"
-      className={`z-30 absolute bg-red-400 h-screen w-full transform duration-1000 ease-out ${
-        curentPage > 1 ? "-translate-y-full" : ""
+      className={`z-0 absolute bg-blue-400 h-screen w-full transform duration-1000 ease-out ${
+        curentPage > 4 ? "-translate-y-full" : ""
       }`}
       onWheel={(e) => handleScroll(e)}
     >
       <span className="flex justify-center items-center h-screen text-9xl font-monument">
-        Portfolio
+        Contact
       </span>
     </div>
   );
 };
 
-export default Portfolio;
+export default Contact;

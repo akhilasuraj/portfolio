@@ -1,24 +1,25 @@
 import { useState } from "react";
 
-const Info = () => {
-  const [pageEnd, setPageEnd] = useState(false);
-
+const Info = ({ curentPage, setCurentPage }) => {
   const handleScroll = (e) => {
     if (e.nativeEvent.wheelDelta > 0) {
       console.log("scroll up");
     } else {
       console.log("scroll down");
-      setPageEnd(true);
+      setCurentPage(1);
     }
   };
 
   return (
-    <div id="gray"
-      className={`absolute bg-gray-400 h-screen w-full transform duration-1000 ease-out ${
-        pageEnd ? "-translate-y-full" : ""
+    <div
+      id="gray"
+      className={`z-40 absolute bg-gray-400 h-screen w-full transform duration-1000 ease-out ${
+        curentPage > 0 ? "-translate-y-full" : ""
       }`}
       onWheel={(e) => handleScroll(e)}
-    ></div>
+    >
+      <span className="flex justify-center items-center h-screen text-9xl font-monument">Intro</span>
+    </div>
   );
 };
 

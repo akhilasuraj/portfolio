@@ -3,7 +3,7 @@ import { useState } from "react";
 const Topbar = () => {
   const [sideMenu, setSideMenu] = useState(false);
   return (
-    <div className="w-full h-28 bg-gray-300 flex items-center justify-between px-10">
+    <div className="w-full h-28 bg-transparent flex items-center justify-between px-10 fixed z-10">
       <div className="flex items-center">
         <span className="text-2xl font-monument cursor-pointer">AKHILA</span>
         <span className="ml-28 font-semibold cursor-pointer">

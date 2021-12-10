@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "DM Sans";
+        src: local('Dm Sans'), url("./fonts/DMSans-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Monument Extended";
+        src: local('Monument Extended'), url("./fonts/MonumentExtended-Regular.otf") format("opentype");
+    }
+}

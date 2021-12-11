@@ -7,7 +7,7 @@ const GraphicalIndicator = ({ curentPage, setCurentPage }) => {
           <div key={page}>
             <div
               className={`w-3 h-3 rounded-full ${
-                curentPage == index ? "bg-yellow-600" : "bg-gray-300"
+                curentPage === index ? "bg-yellow-800 opacity-60" : "bg-gray-300"
               } transform duration-300 ease-out hover:scale-150 cursor-pointer`}
               onClick={() => setCurentPage(index)}
             ></div>

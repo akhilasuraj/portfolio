@@ -12,13 +12,15 @@ const Topbar = ({ setCurentPage }) => {
       </span>
       <div className="flex items-center ">
         <span className="font-semibold cursor-pointer">
-          CALL ME. (+94) 76 - 6857 611
+          <a href="tel:+94766857611">CALL ME. (+94) 76-6857 611</a>
         </span>
-        <span className="font-normal text-xl px-8 cursor-default">
+        <span className="font-normal text-xl px-8 cursor-default text-gray-700">
           /
         </span>
         <span className="font-semibold cursor-pointer">
-          akhila.abesinghe@gmail.com
+          <a href="mailto:akhila.abesinghe@gmail.com">
+            akhila.abesinghe@gmail.com
+          </a>
         </span>
       </div>
       <div
@@ -26,17 +28,17 @@ const Topbar = ({ setCurentPage }) => {
         onClick={() => setSideMenu((n) => !n)}
       >
         <span
-          className={`w-full h-1 origin-left transform ease-in-out duration-700 ${
+          className={`w-full h-1 bg-gray-900 origin-left transform ease-in-out duration-700 ${
             sideMenu ? "rotate-45" : ""
           }`}
         />
         <span
-          className={`w-full h-1 transform ease-in-out duration-700 ${
+          className={`w-full h-1 bg-gray-900 transform ease-in-out duration-700 ${
             sideMenu ? "opacity-0 scale-x-0" : ""
           }`}
         />
         <span
-          className={`w-full h-1 origin-left transform ease-in-out duration-700 ${
+          className={`w-full h-1 bg-gray-900 origin-left transform ease-in-out duration-700 ${
             sideMenu ? "-rotate-45" : ""
           }`}
         />

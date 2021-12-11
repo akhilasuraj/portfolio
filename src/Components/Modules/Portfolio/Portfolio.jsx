@@ -12,7 +12,7 @@ const Portfolio = ({ curentPage, setCurentPage }) => {
   return (
     <div
       id="red"
-      className={`z-30 absolute bg-red-400 h-screen w-full transform duration-1000 ease-out ${
+      className={`z-30 absolute bg-white h-screen w-full transform duration-1000 ease-out ${
         curentPage > 1 ? "-translate-y-full" : ""
       }`}
       onWheel={(e) => handleScroll(e)}

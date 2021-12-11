@@ -6,6 +6,7 @@ import Contact from "../Modules/Contact/Contact";
 import Topbar from "../Common/Topbar/Topbar";
 import Numericalindicator from "../Common/Indiactor/Numericalindicator";
 import GraphicalIndicator from "../Common/Indiactor/GraphicalIndicator";
+import SocialMediaIcons from "../Common/SocialMediaIcons/SocialMediaIcons";
 
 const Layout = ({ curentPage, setCurentPage }) => {
   return (
@@ -18,6 +19,9 @@ const Layout = ({ curentPage, setCurentPage }) => {
             curentPage={curentPage}
             setCurentPage={setCurentPage}
           />
+        </div>
+        <div className="fixed z-50 left-16 bottom-0 transform -translate-y-1/2">
+          <SocialMediaIcons />
         </div>
         <Intro curentPage={curentPage} setCurentPage={setCurentPage} />
         <Portfolio curentPage={curentPage} setCurentPage={setCurentPage} />

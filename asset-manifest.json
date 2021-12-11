@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.958be78d.chunk.css",
-    "main.js": "/portfolio/static/js/main.e17779f5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e17779f5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.454923b6.chunk.css",
+    "main.js": "/portfolio/static/js/main.d8b6dd53.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d8b6dd53.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.be67f985.chunk.js": "/portfolio/static/js/2.be67f985.chunk.js",
     "static/js/2.be67f985.chunk.js.map": "/portfolio/static/js/2.be67f985.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.958be78d.chunk.css.map": "/portfolio/static/css/main.958be78d.chunk.css.map",
+    "static/css/main.454923b6.chunk.css.map": "/portfolio/static/css/main.454923b6.chunk.css.map",
     "static/js/2.be67f985.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be67f985.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/portfolio/static/media/MonumentExtended-Regular.db74f7a5.otf"
+    "static/media/index.css": "/portfolio/static/media/MonumentExtended-Regular.db74f7a5.otf",
+    "static/media/sideCropped.32f08ec1.png": "/portfolio/static/media/sideCropped.32f08ec1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
     "static/js/2.be67f985.chunk.js",
-    "static/css/main.958be78d.chunk.css",
-    "static/js/main.e17779f5.chunk.js"
+    "static/css/main.454923b6.chunk.css",
+    "static/js/main.d8b6dd53.chunk.js"
   ]
 }

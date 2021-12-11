@@ -1,6 +1,8 @@
-const Circle = ({ size, colour, hoverScale }) => {
+const Circle = ({ size, colour, styles = "" }) => {
   return (
-    <div className={`w-${size} h-${size} rounded-full bg-${colour}`}></div>
+    <div
+      className={`w-${size} h-${size} rounded-full bg-${colour} ${styles}`}
+    ></div>
   );
 };
 

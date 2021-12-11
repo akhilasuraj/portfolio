@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e3a0006e.chunk.css",
-    "main.js": "/portfolio/static/js/main.42216ca1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.42216ca1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f39e9706.chunk.css",
+    "main.js": "/portfolio/static/js/main.33cab285.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.33cab285.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.be67f985.chunk.js": "/portfolio/static/js/2.be67f985.chunk.js",
     "static/js/2.be67f985.chunk.js.map": "/portfolio/static/js/2.be67f985.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e3a0006e.chunk.css.map": "/portfolio/static/css/main.e3a0006e.chunk.css.map",
+    "static/css/main.f39e9706.chunk.css.map": "/portfolio/static/css/main.f39e9706.chunk.css.map",
     "static/js/2.be67f985.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be67f985.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/MonumentExtended-Regular.db74f7a5.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
     "static/js/2.be67f985.chunk.js",
-    "static/css/main.e3a0006e.chunk.css",
-    "static/js/main.42216ca1.chunk.js"
+    "static/css/main.f39e9706.chunk.css",
+    "static/js/main.33cab285.chunk.js"
   ]
 }

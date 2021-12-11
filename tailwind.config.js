@@ -10,6 +10,9 @@ module.exports = {
         dm: "'DM Sans'",
         monument: "'Monument Extended'",
       },
+      colors: {
+        mainFontColour: "#b99e64",
+      },
     },
   },
   variants: {

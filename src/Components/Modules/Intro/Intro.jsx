@@ -16,9 +16,18 @@ const Info = ({ curentPage, setCurentPage }) => {
       }`}
       onWheel={(e) => handleScroll(e)}
     >
-      <span className="flex justify-center items-center h-screen text-9xl font-monument">
-        Intro
-      </span>
+      <div className="flex flex-col ml-44 mt-36">
+        <span className="text-7xl text-mainFontColour font-monument uppercase">
+          Akhila
+        </span>
+        <span className="text-7xl text-mainFontColour font-monument uppercase">
+          Abesinghe
+        </span>
+      </div>
+      <div className="ml-44 mt-10 flex flex-col">
+        <span className="uppercase font-monument text-2xl">mobile and web application</span>
+        <span className="uppercase font-monument text-2xl">developper</span>
+      </div>
     </div>
   );
 };

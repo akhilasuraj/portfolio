@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Contact = ({ curentPage, setCurentPage }) => {
   const handleScroll = (e) => {
     if (e.nativeEvent.wheelDelta > 0) {

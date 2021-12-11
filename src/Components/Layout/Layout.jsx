@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import Intro from "../Modules/Intro/Intro";
 import Portfolio from "../Modules/Portfolio/Portfolio";
 import Works from "../Modules/Works/Works";
@@ -7,6 +5,7 @@ import Experience from "../Modules/Experience/Experience";
 import Contact from "../Modules/Contact/Contact";
 import Topbar from "../Common/Topbar/Topbar";
 import Numericalindicator from "../Common/Indiactor/Numericalindicator";
+import GraphicalIndicator from "../Common/Indiactor/GraphicalIndicator";
 
 const Layout = ({ curentPage, setCurentPage }) => {
   return (
@@ -14,6 +13,13 @@ const Layout = ({ curentPage, setCurentPage }) => {
       <div className="relative">
         <Topbar curentPage={curentPage} setCurentPage={setCurentPage} />
         <Numericalindicator index={curentPage} />
+        {/* <div className="fixed z-50 right-16 my-auto">
+          <GraphicalIndicator
+            index={curentPage}
+            curentPage={curentPage}
+            setCurentPage={setCurentPage}
+          />
+        </div> */}
         <Intro curentPage={curentPage} setCurentPage={setCurentPage} />
         <Portfolio curentPage={curentPage} setCurentPage={setCurentPage} />
         <Works curentPage={curentPage} setCurentPage={setCurentPage} />

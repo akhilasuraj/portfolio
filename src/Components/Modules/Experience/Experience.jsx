@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Experience = ({ curentPage, setCurentPage }) => {
   const handleScroll = (e) => {
     if (e.nativeEvent.wheelDelta > 0) {
@@ -20,7 +18,7 @@ const Experience = ({ curentPage, setCurentPage }) => {
       onWheel={(e) => handleScroll(e)}
     >
       <span className="flex justify-center items-center h-screen text-9xl font-monument">
-      Experience
+        Experience
       </span>
     </div>
   );

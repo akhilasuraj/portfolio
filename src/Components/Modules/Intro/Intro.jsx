@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Info = ({ curentPage, setCurentPage }) => {
   const handleScroll = (e) => {
     if (e.nativeEvent.wheelDelta > 0) {
@@ -18,7 +16,9 @@ const Info = ({ curentPage, setCurentPage }) => {
       }`}
       onWheel={(e) => handleScroll(e)}
     >
-      <span className="flex justify-center items-center h-screen text-9xl font-monument">Intro</span>
+      <span className="flex justify-center items-center h-screen text-9xl font-monument">
+        Intro
+      </span>
     </div>
   );
 };

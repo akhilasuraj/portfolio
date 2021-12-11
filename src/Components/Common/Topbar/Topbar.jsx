@@ -3,18 +3,18 @@ import { useState } from "react";
 const Topbar = ({ setCurentPage }) => {
   const [sideMenu, setSideMenu] = useState(false);
   return (
-    <div className="w-full h-28 bg-transparent flex items-center justify-between px-16 fixed z-50">
-      <div className="flex items-center">
-        <span
-          className="text-2xl font-monument cursor-pointer"
-          onClick={() => setCurentPage(0)}
-        >
-          AKHILA
-        </span>
-        <span className="ml-28 font-semibold cursor-pointer">
+    <div className="w-full h-28 bg-transparent flex items-center justify-between px-16 fixed z-50 text-gray-900">
+      <span
+        className="text-2xl font-monument cursor-pointer"
+        onClick={() => setCurentPage(0)}
+      >
+        AKHILA
+      </span>
+      <div className="flex items-center ">
+        <span className="font-semibold cursor-pointer">
           CALL ME. (+94) 76 - 6857 611
         </span>
-        <span className="text-gray-400 font-normal text-xl px-10 cursor-default">
+        <span className="font-normal text-xl px-8 cursor-default">
           /
         </span>
         <span className="font-semibold cursor-pointer">
@@ -26,17 +26,17 @@ const Topbar = ({ setCurentPage }) => {
         onClick={() => setSideMenu((n) => !n)}
       >
         <span
-          className={`w-full h-1 bg-black origin-left transform ease-in-out duration-700 ${
+          className={`w-full h-1 origin-left transform ease-in-out duration-700 ${
             sideMenu ? "rotate-45" : ""
           }`}
         />
         <span
-          className={`w-full h-1 bg-black transform ease-in-out duration-700 ${
+          className={`w-full h-1 transform ease-in-out duration-700 ${
             sideMenu ? "opacity-0 scale-x-0" : ""
           }`}
         />
         <span
-          className={`w-full h-1 bg-black origin-left transform ease-in-out duration-700 ${
+          className={`w-full h-1 origin-left transform ease-in-out duration-700 ${
             sideMenu ? "-rotate-45" : ""
           }`}
         />

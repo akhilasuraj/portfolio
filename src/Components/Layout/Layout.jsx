@@ -13,13 +13,12 @@ const Layout = ({ curentPage, setCurentPage }) => {
       <div className="relative">
         <Topbar curentPage={curentPage} setCurentPage={setCurentPage} />
         <Numericalindicator index={curentPage} />
-        {/* <div className="fixed z-50 right-16 my-auto">
+        <div className="fixed z-50 top-1/2 right-16 transform -translate-y-1/2">
           <GraphicalIndicator
-            index={curentPage}
             curentPage={curentPage}
             setCurentPage={setCurentPage}
           />
-        </div> */}
+        </div>
         <Intro curentPage={curentPage} setCurentPage={setCurentPage} />
         <Portfolio curentPage={curentPage} setCurentPage={setCurentPage} />
         <Works curentPage={curentPage} setCurentPage={setCurentPage} />
